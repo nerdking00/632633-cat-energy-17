@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Кузнецов](https://up.htmlacademy.ru/adaptive/17/user/632633).
-* Наставник: `Неизвестно`.
+* Наставник: `Виктор Кан`.
 
 ---
 
