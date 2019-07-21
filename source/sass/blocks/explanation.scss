@@ -1,0 +1,25 @@
+.explanation__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.explanation__title{
+  margin: 0;
+  font-family: $regular;
+  font-size: 36px;
+  line-height: 60px;
+  margin-bottom: 41px;
+}
+
+.explanation__description{
+  margin: 0;
+  font-family: $base;
+  font-size: 14px;
+  line-height: 18px;
+  color: $black;
+}
+
+.explanation__item{
+  margin-bottom: 32px;
+}

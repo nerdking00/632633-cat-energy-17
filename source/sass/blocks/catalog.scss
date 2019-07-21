@@ -1,0 +1,31 @@
+
+
+.catalog__title{
+  font-family: $regular;
+  font-size: 36px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.catalog-menu{
+  list-style: none;
+}
+
+.catalog-menu__item{
+  min-height: 210px;
+}
+
+.catalog-menu__title{
+  font-family: $regular;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.table{
+  font-family: $base;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 23px;
+}
