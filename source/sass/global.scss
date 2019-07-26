@@ -1,3 +1,18 @@
+body {
+  font-family: $regular;
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   display: none;
 }

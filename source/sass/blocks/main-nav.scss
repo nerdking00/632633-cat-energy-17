@@ -1,5 +1,6 @@
 .main-nav {
-  font-family: $medium;
+  font-family: $regular;
+  font-weight: 500;
   font-size: 20px;
   line-height: 20px;
 }
@@ -26,7 +27,6 @@
   margin-bottom: 20px;
 
   a {
-    text-decoration: none;
     color: $black;
   }
 }
