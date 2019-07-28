@@ -1,0 +1,22 @@
+.slogan {
+  background-color: $green;
+}
+
+.slogan__title {
+  font-family: $regular;
+  margin: 0;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 200;
+  color: $white;
+  padding-bottom: 19px;
+}
+
+.slogan__sub-title {
+  font-family: $regular;
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 200;
+  color: $white;
+}
