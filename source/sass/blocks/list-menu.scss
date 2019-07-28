@@ -2,16 +2,31 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
 }
 
 .list-menu__item {
+  text-align: center;
+  padding: 24px 0;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  border-bottom: 1px solid $lgrey;
+
+  &:first-child {
+    padding-top: 0;
+  }
 
   a {
     color: $black;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-menu__item{
+    padding: 0;
+    margin-right: 36px;
+    border: none;
+
+    &:last-child {
+      margin-right: 31px;
+    }
   }
 }
