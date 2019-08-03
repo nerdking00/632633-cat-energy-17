@@ -1,26 +1,27 @@
 .slogan {
-  background-color: $green;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  flex-direction: column;
+  background: url("../img/index-background-mobile.png") no-repeat 0 0;
 }
 
 .slogan__title {
+  padding-top: 29px;
   font-family: $regular;
-  margin: 0;
+
   font-size: 36px;
   line-height: 36px;
   font-weight: 200;
   color: $white;
   padding-bottom: 19px;
+  margin: 0;
 }
 
 .slogan__sub-title {
-  font-family: $regular;
+  padding-bottom: 29px;
   margin: 0;
+  font-family: $regular;
+
   font-size: 14px;
   line-height: 14px;
   font-weight: 200;
+  text-transform: uppercase;
   color: $white;
 }

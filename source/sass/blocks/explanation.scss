@@ -1,10 +1,19 @@
+.explanation{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0;
+}
+
 .explanation__list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
+
 .explanation__title {
+  text-align: left;
   margin: 0;
   font-size: 36px;
   line-height: 60px;
@@ -13,6 +22,7 @@
 }
 
 .explanation__description {
+  padding-left: 100px;
   margin: 0;
   font-family: $base;
   font-size: 14px;

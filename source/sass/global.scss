@@ -1,8 +1,10 @@
 body {
-  min-width: 320px;
+  width: 100%;
+  max-width: 320px;
   font-family: $regular;
   font-weight: 400;
   margin: 0;
+  padding: 0 20px;
 }
 
 a {
@@ -16,4 +18,11 @@ img {
 
 .visually-hidden {
   display: none;
+}
+
+@media(min-width: 320px) {
+
+  body {
+    width: 280px;
+  }
 }

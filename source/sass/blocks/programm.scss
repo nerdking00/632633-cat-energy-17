@@ -1,3 +1,20 @@
+.programm{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+
+
+.programm__choose-programm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  padding: 11px 74px;
+  margin-bottom: 22px;
+}
+
 .programm__list {
   list-style: none;
   margin: 0;
@@ -5,16 +22,22 @@
 }
 
 .programm__title {
+  text-align: center;
+  margin-right: 10px;
   font-size: 24px;
   line-height: 37px;
   font-weight: inherit;
   text-transform: uppercase;
   margin: 0;
+  padding-top: 39px;
   margin-bottom: 26px;
 }
 
 .programm__description {
   display: block;
+  width: 233px;
+  text-align: left;
+  padding-left: 21px;
   font-family: $base;
   font-size: 14px;
   line-height: 18px;
@@ -27,15 +50,17 @@
 
 .programm__item {
   display: block;
-  padding-left: 20px;
-  padding-right: 20px;
+  min-width: 280px;
   margin-bottom: 20px;
+  min-height: 288px;
   background-color: $lgrey;
 }
 
 .programm__link {
+  padding: 20px 20px;
   text-decoration: none;
   text-transform: uppercase;
+  margin-bottom: 22px;
   color: $black;
   font-size: 16px;
   line-height: 16px;
