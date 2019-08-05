@@ -1,15 +1,6 @@
 .main-nav {
-  font-family: $regular;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-}
-
-.main-nav__list {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  flex-direction: column;
+width: 320px;
+margin: 0 auto;
 }
 
 .main-nav__toggle,
@@ -18,23 +9,10 @@
   border: none;
 }
 
-@media (min-width: 768px) {
-  .main-nav{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-  }
+@media (mix-width : $tablet-witdh){
 
-  .main-nav__list{
-    flex-direction: row;
+.main-nav__wrapper {
+  width: 640px;
+  margin: 0 auto;
   }
 }
-// .main-nav__toggle::after {
-//   content: "";
-//   position: absolute;
-//   background: url("../img/mobile-menu-svg.svg") no-repeat 0 0;
-//   left: 65px;
-//   top: 10px;
-//   width: 25px;
-//   height: 19px;
-// }

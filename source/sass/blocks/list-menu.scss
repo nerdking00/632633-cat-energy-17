@@ -8,7 +8,6 @@
   text-align: center;
   padding: 24px 0;
   text-transform: uppercase;
-  border-bottom: 1px solid $lgrey;
 
   &:first-child {
     padding-top: 0;
@@ -16,17 +15,5 @@
 
   a {
     color: $black;
-  }
-}
-
-@media (min-width: 768px) {
-  .list-menu__item{
-    padding: 0;
-    margin-right: 36px;
-    border: none;
-
-    &:last-child {
-      margin-right: 31px;
-    }
   }
 }
